@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1100px" height="700px" viewBox="0 0 1100 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo dark</title>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="k" fill="#000000" fill-rule="nonzero" points="449.3 140 309.3 140 100 349.3 100 0 0 0 0 700 100 700 100 490.7 309.3 700 449.3 700 450 699.3 170.7 420 450 140.7"></polygon>
+        <path d="M1100,240 L1100,140 L500,140 L500,240 L600,240 L600,700 L700,700 L700,240 L900,240 L900,500 C900,610.5 989.5,700 1100,700 L1100,600 C1044.8,600 1000,555.2 1000,500 L1000,240 L1100,240 Z" id="pi" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

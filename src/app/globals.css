@@ -1,0 +1,52 @@
+:root {
+  --background: #ffffff;
+  --foreground: #595960;
+  --foreground-title: #030136;
+  --foreground-detail: #64748B;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #101212;
+    --foreground: #A0A0A0;
+    --foreground-title: #DFE0E2;
+    --foreground-detail: #8B8C8E;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.125rem;
+  line-height: 1.25;
+  letter-spacing: -0.01rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--foreground-title);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0969ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0043b5;
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

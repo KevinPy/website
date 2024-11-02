@@ -1,0 +1,46 @@
+import type { Metadata } from "next";
+import { GeistSans } from 'geist/font/sans';
+
+import "./globals.css";
+import styles from "./layout.module.css";
+
+export const metadata: Metadata = {
+  title: "Kevin Py",
+  description: "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
+  authors: [{ name: "Kevin Py" }],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://kevinpy.com",
+    siteName: "Kevin Py",
+    title: "Kevin Py",
+    description: "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
+    images: [
+      {
+        url: "https://kevinpy.com/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Kevin Py",
+      },
+    ],
+  }
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" className={GeistSans.className}>
+      <head>
+        <link rel="icon" href="/favicon.png" />
+      </head>
+      <body>
+        <div className={styles.wrapper}>
+        {children}
+        </div>
+      </body>
+    </html>
+  );
+}

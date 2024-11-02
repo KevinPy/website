@@ -1,0 +1,44 @@
+.logoDark {
+  display: none;
+}
+
+.presentation {
+  margin-top: 1rem;
+}
+
+.networks {
+  display: flex;
+  gap: .5rem;
+  margin-top: 1rem;
+
+}
+
+.networks li {
+  list-style-type: none;
+}
+
+.networks li:not(:first-child):before {
+  content: '\2022';
+  margin-right: .5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .logoLight {
+    display: none;
+  }
+  .logoDark {
+    display: unset;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .networks {
+    gap: unset;
+    flex-direction: column;
+  }
+
+  .networks li:not(:first-child):before {
+    content: unset;
+    margin-right: 0;
+  }
+}
