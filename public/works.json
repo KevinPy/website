@@ -2,7 +2,19 @@
   { "year": "2019-", "name": "BPCE", "url": "https://groupebpce.com" },
   { "year": "2018-2019", "name": "Airbus", "url": "https://airbus.com" },
   { "year": "2018-2019", "name": "Terega", "url": "https://www.terega.fr" },
-  { "year": "2017-2018", "name": "Flying Blue", "url": "https://flyingblue.com" },
-  { "year": "2017", "name": "I Fly A380", "url": "https://iflya380.com" },
-  { "year": "2013-2015", "name": "Pickn", "url": "https://wellfound.com/company/pickn" }
+  {
+    "year": "2017-2018",
+    "name": "Flying Blue",
+    "url": "https://flyingblue.com"
+  },
+  {
+    "year": "2017",
+    "name": "I Fly A380 - Airbus",
+    "url": "https://iflya380.com"
+  },
+  {
+    "year": "2013-2015",
+    "name": "Pickn",
+    "url": "https://wellfound.com/company/pickn"
+  }
 ]

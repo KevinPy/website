@@ -27,8 +27,9 @@ export default function HeaderComponent(props: Props) {
         height={50}
       />
       <p className={styles.presentation}>
-        Bonjour, my name is <i>Kevin Py</i>, a french Freelancer Senior
-        Front-End Developer, Tech Lead and Software Architect.
+        Bonjour, my name is <i>Kevin Py</i>, a french Freelancer Tech Lead,
+        Expert Front-End Developer, and Software Architect. I created my
+        company, called Pyxel.
       </p>
       <ul className={styles.networks}>{items}</ul>
     </header>
