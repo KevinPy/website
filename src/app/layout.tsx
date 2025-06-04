@@ -35,6 +35,7 @@ export default function RootLayout({
     <html lang="en" className={GeistSans.className}>
       <head>
         <link rel="icon" href="/favicon.png" />
+        <script defer src="https://stats.pyxel.dev/script.js" data-website-id="48bddd4b-9680-4103-96ba-7bc60a11ddb1"></script>
       </head>
       <body>
         <div className={styles.wrapper}>
