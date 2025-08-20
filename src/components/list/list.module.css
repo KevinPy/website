@@ -11,19 +11,39 @@
   line-height: 1.5;
 }
 
-.date {
-  display: inline-block;
-  width: 8rem;
-  font-style: italic;
+.item {
+  display: grid;
+  grid-template-columns: 8rem 10rem 1fr;
+  grid-template-areas: "date name description";
 }
 
 .list li::marker {
   color: var(--foreground-detail);
 }
 
-@media screen and (max-width: 300px) {
-  .date {
-    display: block;
-    width: unset;
+.date {
+  grid-area: date;
+  font-style: italic;
+}
+
+.description {
+  grid-area: description;
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .item {
+    grid-template-columns: 8rem 1fr;
+    grid-template-areas:
+      "date name"
+      ". description";
+  }
+
+  .list li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .description {
+    margin-left: inherit;
   }
 }

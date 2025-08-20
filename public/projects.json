@@ -1,6 +1,26 @@
 [
-  { "year": "2023", "name": "It is friday ?", "url": "https://itisfriday.com" },
-  { "year": "2022", "name": "BlackScreen", "url": "https://blackscreen.app" },
-  { "year": "2022", "name": "Chaton", "url": "https://chaton.io" },
-  { "year": "2020", "name": "Biorhythm", "url": "https://biorhythm.app" }
+  {
+    "year": "2023",
+    "name": "It is friday ?",
+    "url": "https://itisfriday.com",
+    "description": "A website that tells you if it's Friday"
+  },
+  {
+    "year": "2022",
+    "name": "BlackScreen",
+    "url": "https://blackscreen.app",
+    "description": "A black screen page with +1M visits per month"
+  },
+  {
+    "year": "2022",
+    "name": "Chaton",
+    "url": "https://chaton.io",
+    "description": "A Web-RTC 1:1 video app"
+  },
+  {
+    "year": "2020",
+    "name": "Biorhythm",
+    "url": "https://biorhythm.app",
+    "description": "A biorhythm calculator"
+  }
 ]

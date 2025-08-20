@@ -1,20 +1,38 @@
 [
-  { "year": "2019-", "name": "BPCE", "url": "https://groupebpce.com" },
-  { "year": "2018-2019", "name": "Airbus", "url": "https://airbus.com" },
-  { "year": "2018-2019", "name": "Terega", "url": "https://www.terega.fr" },
+  {
+    "year": "2019-",
+    "name": "BPCE",
+    "url": "https://groupebpce.com",
+    "description": "Rework on customer finance dashboard"
+  },
+  {
+    "year": "2018-2019",
+    "name": "Airbus",
+    "url": "https://airbus.com",
+    "description": "Migration on-premise to AWS servers"
+  },
+  {
+    "year": "2018-2019",
+    "name": "Terega",
+    "url": "https://www.terega.fr",
+    "description": "Marketplace & Dashboard for buy and sell gas"
+  },
   {
     "year": "2017-2018",
     "name": "Flying Blue",
-    "url": "https://flyingblue.com"
+    "url": "https://flyingblue.com",
+    "description": "Rework Air France and KLM loyalty program"
   },
   {
     "year": "2017",
     "name": "I Fly A380 - Airbus",
-    "url": "https://iflya380.com"
+    "url": "https://iflya380.com",
+    "description": "Book your flight on the A380"
   },
   {
     "year": "2013-2015",
     "name": "Pickn",
-    "url": "https://wellfound.com/company/pickn"
+    "url": "https://wellfound.com/company/pickn",
+    "description": "Contextual Tinder, based on places"
   }
 ]

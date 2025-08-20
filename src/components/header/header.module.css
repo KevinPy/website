@@ -1,16 +1,24 @@
+.logo {
+  display: block;
+  margin-bottom: 1rem;
+}
+
 .logoDark {
   display: none;
 }
 
-.presentation {
-  margin-top: 1rem;
+.showMe {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  pointer-events: none;
 }
 
 .networks {
   display: flex;
-  gap: .5rem;
+  gap: 0.5rem;
   margin-top: 1rem;
-
 }
 
 .networks li {
@@ -18,8 +26,8 @@
 }
 
 .networks li:not(:first-child):before {
-  content: '\2022';
-  margin-right: .5rem;
+  content: "\2022";
+  margin-right: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {

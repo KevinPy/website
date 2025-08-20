@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import { GeistSans } from 'geist/font/sans';
+import { GeistSans } from "geist/font/sans";
 
 import "./globals.css";
+
 import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "Kevin Py",
-  description: "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
+  description:
+    "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
   authors: [{ name: "Kevin Py" }],
   openGraph: {
     type: "website",
@@ -14,7 +16,8 @@ export const metadata: Metadata = {
     url: "https://kevinpy.com",
     siteName: "Kevin Py",
     title: "Kevin Py",
-    description: "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
+    description:
+      "Freelance Senior Front-End Developer • Tech Lead • Software Architect",
     images: [
       {
         url: "https://kevinpy.com/og.png",
@@ -23,7 +26,7 @@ export const metadata: Metadata = {
         alt: "Kevin Py",
       },
     ],
-  }
+  },
 };
 
 export default function RootLayout({
@@ -35,12 +38,14 @@ export default function RootLayout({
     <html lang="en" className={GeistSans.className}>
       <head>
         <link rel="icon" href="/favicon.png" />
-        <script defer src="https://stats.pyxel.dev/script.js" data-website-id="48bddd4b-9680-4103-96ba-7bc60a11ddb1"></script>
+        <script
+          defer
+          src="https://stats.pyxel.dev/script.js"
+          data-website-id="48bddd4b-9680-4103-96ba-7bc60a11ddb1"
+        ></script>
       </head>
       <body>
-        <div className={styles.wrapper}>
-        {children}
-        </div>
+        <main className={styles.wrapper}>{children}</main>
       </body>
     </html>
   );

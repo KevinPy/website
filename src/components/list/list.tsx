@@ -11,6 +11,7 @@ type PropsItem = {
   year: string;
   name: string;
   url?: string;
+  description?: string;
 };
 
 export default function ListComponent(props: Props) {
@@ -30,14 +31,21 @@ function ProjectItem(props: PropsItem) {
   const { year, name, url } = props;
   return (
     <li>
-      <span className={styles.date}>{year}</span>
-      {url ? (
-        <Link href={url} target="_blank">
+      <span className={styles.item}>
+        <span className={styles.date}>{year}</span>
+        {url ? (
+          <span>
+            <Link href={url} target="_blank">
+              {name}
+            </Link>
+          </span>
+        ) : (
           <span>{name}</span>
-        </Link>
-      ) : (
-        <span>{name}</span>
-      )}
+        )}
+        {props.description && (
+          <span className={styles.description}>{props.description}</span>
+        )}
+      </span>
     </li>
   );
 }
