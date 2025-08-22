@@ -1,0 +1,20 @@
+.wrapper {
+  margin: 3rem auto;
+}
+
+.category {
+  margin: 3rem auto;
+}
+
+.title {
+  font-size: 1.25rem;
+}
+
+.list {
+  margin-left: 1rem;
+  line-height: 1.5;
+}
+
+.list li::marker {
+  color: var(--foreground-detail);
+}

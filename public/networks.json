@@ -1,4 +1,5 @@
 [
   { "name": "LinkedIn", "url": "https://www.linkedin.com/in/kevinpy/" },
-  { "name": "Github", "url": "https://github.com/KevinPy" }
+  { "name": "Github", "url": "https://github.com/KevinPy" },
+  { "name": "/uses", "url": "/uses" }
 ]
