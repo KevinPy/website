@@ -28,7 +28,6 @@
 
 .description {
   grid-area: description;
-  margin-left: 1rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -41,9 +40,5 @@
 
   .list li:not(:last-child) {
     margin-bottom: 1rem;
-  }
-
-  .description {
-    margin-left: inherit;
   }
 }

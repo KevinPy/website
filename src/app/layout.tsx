@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
-import { GeistSans } from "geist/font/sans";
+import localFont from "next/font/local";
 
 import "./globals.css";
-
 import styles from "./layout.module.css";
+
+const font = localFont({
+  src: "../../public/Liliex.ttf",
+});
 
 export const metadata: Metadata = {
   title: "Kevin Py",
@@ -35,7 +38,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={GeistSans.className}>
+    <html lang="en" className={font.className}>
       <head>
         <link rel="icon" href="/favicon.png" />
         <script

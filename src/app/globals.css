@@ -1,14 +1,14 @@
 :root {
-  --background: #ffffff;
+  --background: #fff;
   --foreground: #595960;
-  --foreground-title: #030136;
+  --foreground-title: #121314;
   --foreground-detail: #64748b;
   --link: #0080ff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #101212;
+    --background: #000;
     --foreground: #a0a0a0;
     --foreground-title: #dfe0e2;
     --foreground-detail: #8b8c8e;
@@ -21,9 +21,9 @@ body {
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.25;
-  letter-spacing: -0.01rem;
+  letter-spacing: -0.02rem;
 }
 
 * {
