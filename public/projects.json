@@ -22,5 +22,11 @@
     "name": "Biorhythm",
     "url": "https://biorhythm.app",
     "description": "A biorhythm calculator"
+  },
+  {
+    "year": "2018",
+    "name": "Tiny Notes",
+    "url": "https://chromewebstore.google.com/detail/fpdnhficobcdnpddhojihlopljhnmkga",
+    "description": "A tiny app for write quickly notes"
   }
 ]
