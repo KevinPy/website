@@ -17,17 +17,14 @@ export default function UseComponent() {
         <ul className={styles.list}>
           <li>
             <strong>Browser</strong>{" "}
-            <Link href="https://ungoogled-software.github.io/" target="_blank">
-              Ungoogled Chromium
+            <Link href="https://www.firefox.com/" target="_blank">
+              Firefox
             </Link>
             . Before that, I used{" "}
             <Link href="https://librewolf.net/" target="_blank">
               LibreWolf
             </Link>
-            , but it was slow, and often jerky. And before that,{" "}
-            <Link href="https://www.firefox.com/" target="_blank">
-              Firefox
-            </Link>
+            , but it was slow, and often jerky.
           </li>
           <li>
             <strong>Code editor</strong>{" "}
@@ -111,7 +108,8 @@ export default function UseComponent() {
             <strong>Desktop</strong> MacBook Pro 16&ldquo; M1 Max 64 Go / 1 To
           </li>
           <li>
-            <strong>Display</strong> Apple Studio Display
+            <strong>Display</strong>
+            <Link href="https://www.lg.com/us/monitors/lg-40u990a-w-ultrafine-monitor" target="_blank">LG 40U990A-W</Link>
           </li>
           <li>
             <strong>Headphone</strong> Bose QC35 II
@@ -144,7 +142,22 @@ export default function UseComponent() {
             </Link>
           </li>
           <li>
-            <strong>Keyboard</strong> Apple Magic Keyboard
+            <strong>Light (behind screen)</strong>
+            <Link
+              href="https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-play-light-bar-single-pack/7820130U7"
+              target="_blank"
+            >
+              Philips Hue Play x2
+            </Link>
+          </li>
+          <li>
+            <strong>Keyboard</strong>
+            <Link
+              href="https://www.logitech.com/en-us/shop/p/mx-keys-mini-for-mac"
+              target="_blank"
+            >
+              Logitech MX Keys Mini
+            </Link>
           </li>
           <li>
             <strong>Mouses</strong>{" "}
