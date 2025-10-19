@@ -44,8 +44,8 @@ export default function HeaderComponent(props: Props) {
             >
               Kevin Py
             </i>
-            ,<br />a french freelance Tech Lead, Expert Front-End Developer, and
-            Software Architect.
+            ,<br />a french freelance CTO, Tech Lead, Expert Front-End Developer, 
+            Software Architect and DevOps.
           </p>
           <ul className={styles.networks}>{items}</ul>
         </>
