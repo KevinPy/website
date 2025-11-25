@@ -1,5 +1,11 @@
 [
   {
+    "year": "2025",
+    "name": "Git history",
+    "url": "https://marketplace.visualstudio.com/items?itemName=KevinPy.git-history-explorer",
+    "description": "VSCode ext for navigate into the git file history"
+  },
+  {
     "year": "2023",
     "name": "It is friday ?",
     "url": "https://itisfriday.com",
@@ -9,7 +15,7 @@
     "year": "2022",
     "name": "BlackScreen",
     "url": "https://blackscreen.app",
-    "description": "A black screen, +1M visits per month"
+    "description": "A black screen, +1.5M visits per month"
   },
   {
     "year": "2022",
