@@ -44,7 +44,7 @@ export default function RootLayout({
         <script
           defer
           src="https://stats.pyxel.dev/script.js"
-          data-website-id="48bddd4b-9680-4103-96ba-7bc60a11ddb1"
+          data-website-id="5ccedd78-7478-4929-87d4-f0ad72db90d2"
         ></script>
       </head>
       <body>
