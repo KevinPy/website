@@ -1,6 +1,6 @@
-import { Post } from "@/models/post";
-import { getPosts } from "@/utils/blog";
 import Link from "next/link";
+import type { Post } from "@/models/post";
+import { getPosts } from "@/utils/blog";
 import styles from "./blog.module.css";
 
 export default function BlogListComponent() {

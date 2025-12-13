@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./use.module.css";
-import Image from "next/image";
 
 export default function UseComponent() {
   return (

@@ -1,6 +1,6 @@
-import { Data } from "@/models/data";
-import styles from "./list.module.css";
 import Link from "next/link";
+import type { Data } from "@/models/data";
+import styles from "./list.module.css";
 
 type Props = {
   data: Data[];
@@ -17,7 +17,7 @@ type PropsItem = {
 export default function ListComponent(props: Props) {
   const { data, title } = props;
 
-  const items = data.map((item, i) => <ProjectItem key={i} {...item} />);
+  const items = data.map((item) => <ProjectItem key={item.name} {...item} />);
 
   return (
     <section className={styles.wrapper}>

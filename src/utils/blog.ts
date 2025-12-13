@@ -1,20 +1,20 @@
-import { Metadata } from "@/models/metadata";
-import { Post } from "@/models/post";
-import fs from "fs";
-import path from "path";
+import fs from "node:fs";
+import path from "node:path";
+import type { Metadata } from "@/models/metadata";
+import type { Post } from "@/models/post";
 
 export function getPosts(): Array<Post> {
   return getMDXData(path.join(process.cwd(), "src", "content"));
 }
 
 function getMDXData(dir: string): Array<Post> {
-  let files = fs
+  const files = fs
     .readdirSync(dir)
     .filter((file) => path.extname(file) === ".mdx");
 
   return files.map((file) => {
-    let { metadata, content } = readMDXFile(path.join(dir, file));
-    let slug = path.basename(file, path.extname(file));
+    const { metadata, content } = readMDXFile(path.join(dir, file));
+    const slug = path.basename(file, path.extname(file));
 
     return {
       metadata,
@@ -25,26 +25,26 @@ function getMDXData(dir: string): Array<Post> {
 }
 
 function readMDXFile(filePath: string): Post {
-  let rawContent = fs.readFileSync(filePath, "utf-8");
+  const rawContent = fs.readFileSync(filePath, "utf-8");
 
   // Regex pour capturer export const metadata = { ... }
-  let metadataRegex = /export\s+const\s+metadata\s+=\s+\{([\s\S]*?)\};/;
-  let match = metadataRegex.exec(rawContent);
+  const metadataRegex = /export\s+const\s+metadata\s+=\s+\{([\s\S]*?)\};/;
+  const match = metadataRegex.exec(rawContent);
 
   if (!match) {
     throw new Error("No metadata export found in MDX file");
   }
 
-  let metadataBlock = match[1];
-  let content = rawContent.replace(metadataRegex, "").trim();
-  let metadata: Partial<Metadata> = {};
+  const metadataBlock = match[1];
+  const content = rawContent.replace(metadataRegex, "").trim();
+  const metadata: Partial<Metadata> = {};
 
   // Parser les propriétés de l'objet metadata
-  let lines = metadataBlock.trim().split("\n");
+  const lines = metadataBlock.trim().split("\n");
   lines.forEach((line) => {
-    let propertyMatch = line.match(/^\s*(\w+):\s*"([^"]+)"\s*,?$/);
+    const propertyMatch = line.match(/^\s*(\w+):\s*"([^"]+)"\s*,?$/);
     if (propertyMatch) {
-      let [, key, value] = propertyMatch;
+      const [, key, value] = propertyMatch;
       metadata[key.trim() as keyof Metadata] = value;
     }
   });

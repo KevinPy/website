@@ -1,6 +1,6 @@
+import type { Metadata } from "next";
 import HeaderComponent from "@/components/header/header";
 import styles from "./post.module.css";
-import type { Metadata } from "next";
 
 export async function generateMetadata({
   params,
@@ -30,7 +30,7 @@ export default async function ArticlePage({
       <article className={styles.article}>
         <p className={styles.date}>
           {new Intl.DateTimeFormat("en-US", { dateStyle: "long" }).format(
-            new Date(metadata.date)
+            new Date(metadata.date),
           )}
         </p>
         <Post />

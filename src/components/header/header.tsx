@@ -1,10 +1,10 @@
 "use client";
 
-import Image, { ImageProps } from "next/image";
-import { useState } from "react";
-import styles from "./header.module.css";
-import { Network } from "@/models/network";
+import Image, { type ImageProps } from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import type { Network } from "@/models/network";
+import styles from "./header.module.css";
 
 type Props = {
   networks?: Network[];
@@ -19,7 +19,9 @@ type LogoProps = Omit<ImageProps, "src" | "priority" | "loading"> & {
 export default function HeaderComponent(props: Props) {
   const { networks, hasPresentation } = props;
 
-  const items = networks?.map((item, i) => <NetworkItem key={i} {...item} />);
+  const items = networks?.map((item) => (
+    <NetworkItem key={item.name} {...item} />
+  ));
 
   const [showMe, setShowMe] = useState(false);
 

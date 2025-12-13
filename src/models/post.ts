@@ -1,4 +1,4 @@
-import { Metadata } from "./metadata";
+import type { Metadata } from "./metadata";
 
 export type Post = {
   metadata: Metadata;
