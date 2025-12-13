@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./use.module.css";
+import Image from "next/image";
 
 export default function UseComponent() {
   return (
@@ -12,6 +13,13 @@ export default function UseComponent() {
         , here is a list of some of the related things I use on a regular basis.
         No affiliate links.
       </p>
+      <Image
+        className={styles.image}
+        src="/desk.webp"
+        alt="Desktop"
+        width={1000}
+        height={562}
+      />
       <section className={styles.category}>
         <h2 className={styles.title}>Software</h2>
         <ul className={styles.list}>
@@ -109,7 +117,12 @@ export default function UseComponent() {
           </li>
           <li>
             <strong>Display</strong>
-            <Link href="https://www.lg.com/us/monitors/lg-40u990a-w-ultrafine-monitor" target="_blank">LG 40U990A-W</Link>
+            <Link
+              href="https://www.lg.com/us/monitors/lg-40u990a-w-ultrafine-monitor"
+              target="_blank"
+            >
+              LG 40U990A-W
+            </Link>
           </li>
           <li>
             <strong>Headphone</strong> Bose QC35 II
@@ -142,7 +155,7 @@ export default function UseComponent() {
             </Link>
           </li>
           <li>
-            <strong>Light (behind screen)</strong>
+            <strong>Light (behind screen)</strong>{" "}
             <Link
               href="https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-play-light-bar-single-pack/7820130U7"
               target="_blank"
@@ -151,7 +164,7 @@ export default function UseComponent() {
             </Link>
           </li>
           <li>
-            <strong>Keyboard</strong>
+            <strong>Keyboard</strong>{" "}
             <Link
               href="https://www.logitech.com/en-us/shop/p/mx-keys-mini-for-mac"
               target="_blank"

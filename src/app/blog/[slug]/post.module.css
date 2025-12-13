@@ -1,0 +1,110 @@
+.article {
+  /* margin: 5rem auto; */
+}
+
+.article .date {
+  color: gray;
+  margin: inherit;
+}
+
+.article h1 {
+  font-size: 2rem;
+  margin: 1rem 0 3rem;
+}
+
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+  margin: 3rem 0 1rem;
+}
+
+.article h2 {
+  font-size: 1.5rem;
+}
+
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
+  font-size: 1.25rem;
+}
+
+.article p {
+  margin: 1rem 0;
+}
+
+.article ul,
+.article ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.article ul li,
+.article ol li {
+  margin: 0.5rem 0;
+}
+
+.article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.article table th,
+.article table td {
+  padding: 0.5rem;
+  border: 1px solid var(--foreground);
+}
+
+.article pre {
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
+.article pre [data-line] {
+  padding: 0 1rem;
+}
+
+.article pre [data-highlighted-line] {
+  background-color: #c8c8ff1a;
+}
+
+.article pre [data-highlighted-chars] {
+  border-radius: 0.25rem;
+  background-color: #52525b80;
+  box-shadow: 0 0 0 2px #52525b80;
+}
+
+.article code {
+  line-height: 1.75;
+}
+
+.article code[data-line-numbers] {
+  counter-reset: line;
+}
+
+.article code[data-line-numbers] > [data-line]::before {
+  counter-increment: line;
+  content: counter(line);
+
+  /* Other styling */
+  display: inline-block;
+  width: 0.75rem;
+  margin-right: 2rem;
+  text-align: right;
+  color: gray;
+}
+
+.article code[data-line-numbers-max-digits="2"] > [data-line]::before {
+  width: 1.25rem;
+}
+
+.article code[data-line-numbers-max-digits="3"] > [data-line]::before {
+  width: 1.75rem;
+}
+
+.article code[data-line-numbers-max-digits="4"] > [data-line]::before {
+  width: 2.25rem;
+}

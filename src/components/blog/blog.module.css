@@ -13,8 +13,8 @@
 
 .item {
   display: grid;
-  grid-template-columns: 8rem 10rem 1fr;
-  grid-template-areas: "date name description";
+  grid-template-columns: 8rem 1fr;
+  grid-template-areas: "date name";
 }
 
 .list li::marker {
@@ -26,18 +26,7 @@
   font-style: italic;
 }
 
-.description {
-  grid-area: description;
-}
-
 @media screen and (max-width: 800px) {
-  .item {
-    grid-template-columns: 8rem 1fr;
-    grid-template-areas:
-      "date name"
-      ". description";
-  }
-
   .list li:not(:last-child) {
     margin-bottom: 1rem;
   }
