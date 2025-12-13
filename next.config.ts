@@ -1,6 +1,6 @@
-import type { NextConfig } from "next";
 import createMDX from "@next/mdx";
-import { Options } from "rehype-pretty-code";
+import type { NextConfig } from "next";
+import type { Options } from "rehype-pretty-code";
 
 const nextConfig: NextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx", "js", "jsx"],
@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
 
 /** @type {import('rehype-pretty-code').Options} */
 const options: Options = {
-  theme: "material-theme-darker"
+  theme: "material-theme-darker",
 };
 
 const withMDX = createMDX({
