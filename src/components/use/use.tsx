@@ -116,7 +116,7 @@ export default function UseComponent() {
             <strong>Desktop</strong> MacBook Pro 16&ldquo; M1 Max 64 Go / 1 To
           </li>
           <li>
-            <strong>Display</strong>
+            <strong>Display</strong> A wide-screen monitor{" "}
             <Link
               href="https://www.lg.com/us/monitors/lg-40u990a-w-ultrafine-monitor"
               target="_blank"
@@ -233,6 +233,15 @@ export default function UseComponent() {
               target="_blank"
             >
               Unifi E7
+            </Link>
+          </li>
+          <li>
+            <strong>Wi-Fi bridge</strong> 2x{" "}
+            <Link
+              href="https://store.ui.com/us/en/category/wifi-bridging/products/udb-switch"
+              target="_blank"
+            >
+              Device Bridge Switch
             </Link>
           </li>
           <li>
