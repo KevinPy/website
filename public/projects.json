@@ -1,5 +1,11 @@
 [
   {
+    "year": "2026",
+    "name": "Sort Algorithms",
+    "url": "https://sort-algorithms.pyxel.dev/",
+    "description": "Visualize how different algorithms organize data"
+  },
+  {
     "year": "2025",
     "name": "Git history",
     "url": "https://marketplace.visualstudio.com/items?itemName=KevinPy.git-history-explorer",
