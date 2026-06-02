@@ -1,6 +1,12 @@
 [
   {
     "year": "2026",
+    "name": "Budpy",
+    "url": "https://budpy.app",
+    "description": "ESP32 CYD Dashboard"
+  },
+  {
+    "year": "2026",
     "name": "Sort Algorithms",
     "url": "https://sort-algorithms.pyxel.dev/",
     "description": "Visualize how different algorithms organize data"
