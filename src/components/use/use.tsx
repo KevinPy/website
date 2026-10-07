@@ -125,10 +125,170 @@ export default function UseComponent() {
             </Link>
           </li>
           <li>
-            <strong>Headphone</strong> Bose QC35 II
+            <strong>Headphone</strong>{" "}
+            <Link
+              href="https://us.sennheiser-hearing.com/products/hdb-630"
+              target="_blank"
+            >
+              Sennheiser HDB 630 + BTD 700
+            </Link>
           </li>
           <li>
-            <strong>Earphone</strong> Apple AirPods Pro 2
+            <strong>Earphone</strong> Apple AirPods Pro 3
+          </li>
+        </ul>
+      </section>
+      <section className={styles.category}>
+        <h2 className={styles.title}>Hardware PC Living</h2>
+        <ul className={styles.list}>
+          <li>
+            <strong>Case</strong>{" "}
+            <Link
+              href="https://www.fractal-design.com/products/cases/terra-series/terra/terra-jade/"
+              target="_blank"
+            >
+              Fractal Terra
+            </Link>
+          </li>
+          <li>
+            <strong>Motherboard</strong>{" "}
+            <Link
+              href="https://rog.asus.com/motherboards/rog-strix/rog-strix-b850-i-gaming-wifi7-w/"
+              target="_blank"
+            >
+              ASUS ROG Strix B760-I
+            </Link>
+          </li>
+          <li>
+            <strong>CPU</strong>{" "}
+            <Link
+              href="https://www.intel.com/content/www/us/en/products/sku/230494/intel-core-i513600kf-processor-24m-cache-up-to-5-10-ghz/specifications.html"
+              target="_blank"
+            >
+              Intel Core i5-13600KF
+            </Link>
+          </li>
+          <li>
+            <strong>RAM</strong>{" "}
+            2x{" "}<Link
+              href="https://www.corsair.com/us/en/p/memory/cmk64gx5m2b6000z38/vengeance-64gb-2x32gb-ddr5-dram-6000mts-cl38-amd-expo-intel-xmp-memory-kit-cmk64gx5m2b6000z38"
+              target="_blank"
+            >
+              CORSAIR Vengeance DDR5 32Go
+            </Link>
+          </li>
+          <li>
+            <strong>Storage</strong>{" "}
+            <Link
+              href="https://www.samsung.com/us/memory-storage/nvme-ssd/990-pro-pcie-4-0-nvme-ssd-4tb-sku-mz-v9p4t0b-am/"
+              target="_blank"
+            >
+              Samsung SSD 990 Pro 4 To
+            </Link>
+          </li>
+          <li>
+            <strong>GPU</strong>{" "}
+            <Link
+              href="https://www.asus.com/motherboards-components/graphics-cards/proart/proart-rtx4080s-16g/"
+              target="_blank"
+            >
+              ASUS ProArt GeForce RTX 4080 Super
+            </Link>
+          </li>
+          <li>
+            <strong>Power supply</strong>{" "}
+            <Link
+              href="https://rog.asus.com/power-supply-units/rog-loki/rog-loki-850p-sfx-l-gaming-model/"
+              target="_blank"
+            >
+              ASUS ROG Loki SFX-L - 850W Platinum
+            </Link>
+          </li>
+          <li>
+            <strong>Fan CPU</strong>{" "}
+            <Link
+              href="https://www.thermalright.com/product/axp90-x53-full-black/"
+              target="_blank"
+            >
+              Thermalright AXP90 X53
+            </Link>
+          </li>
+        </ul>
+      </section>
+            <section className={styles.category}>
+        <h2 className={styles.title}>Hardware PC AI</h2>
+        <ul className={styles.list}>
+          <li>
+            <strong>Case</strong>{" "}
+            <Link
+              href="https://cooj.cc/products/cooj-sf3-8-9l-a4-structure-aluminum-alloy-itx-case"
+              target="_blank"
+            >
+              Cooj SF3
+            </Link>
+          </li>
+          <li>
+            <strong>Motherboard</strong>{" "}
+            <Link
+              href="https://rog.asus.com/motherboards/rog-strix/rog-strix-x870-i-gaming-wifi/"
+              target="_blank"
+            >
+              ASUS ROG Strix X870-I
+            </Link>
+          </li>
+          <li>
+            <strong>CPU</strong>{" "}
+            <Link
+              href="https://www.amd.com/en/products/processors/desktops/ryzen/7000-series/amd-ryzen-7-7700.html"
+              target="_blank"
+            >
+              Ryzen 7 7700
+            </Link>
+          </li>
+          <li>
+            <strong>RAM</strong>{" "}
+            2x{" "}<Link
+              href="https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr5-memory"
+              target="_blank"
+            >
+              Kingston Fury Beast DDR5 32Go
+            </Link>
+          </li>
+          <li>
+            <strong>Storage</strong>{" "}
+            <Link
+              href="https://www.samsung.com/us/memory-storage/nvme-ssd/990-evo-plus-gen4-nvme-ssd-2tb-sku-mz-v9s2t0b-am/"
+              target="_blank"
+            >
+              Samsung SSD 990 Evo Plus 2 To
+            </Link>
+          </li>
+          <li>
+            <strong>GPU</strong>{" "}
+            <Link
+              href="https://www.gigabyte.com/Graphics-Card/GV-N3090GAMING-OC-24GD"
+              target="_blank"
+            >
+              Gigabyte GeForce RTX 3090 24G
+            </Link>
+          </li>
+          <li>
+            <strong>Power supply</strong>{" "}
+            <Link
+              href="https://www.corsair.com/us/en/p/psu/cp-9020256-na/sf-series-sf850-fully-modular-80-plus-platinum-sfx-power-supply-cp-9020256-na"
+              target="_blank"
+            >
+              Corsair SF850
+            </Link>
+          </li>
+          <li>
+            <strong>Fan CPU</strong>{" "}
+            <Link
+              href="https://www.thermalright.com/product/axp90-x53-full-black/"
+              target="_blank"
+            >
+              Thermalright AXP90 X53
+            </Link>
           </li>
         </ul>
       </section>
@@ -164,12 +324,19 @@ export default function UseComponent() {
             </Link>
           </li>
           <li>
-            <strong>Keyboard</strong>{" "}
+            <strong>Keyboards</strong>{" "}
             <Link
               href="https://www.logitech.com/en-us/shop/p/mx-keys-mini-for-mac"
               target="_blank"
             >
               Logitech MX Keys Mini
+            </Link>{" "}
+            / 2x{" "}
+            <Link
+              href="https://www.apple.com/shop/product/mjly4ll/a/magic-keyboard-with-touch-id-for-mac-models-with-apple-silicon-usb-c-us-english"
+              target="_blank"
+            >
+              Apple Magic Keyboard Touch ID (for work & personal)
             </Link>
           </li>
           <li>
@@ -294,7 +461,7 @@ export default function UseComponent() {
             <strong>Home Assistant</strong> Home Assistant Yellow / 8 Gb RAM /
             32 Gb eMMC /{" "}
             <Link href="https://amzn.eu/d/65lQK2G" target="_blank">
-              1x M.2 Samsung 980
+              1x M.2 Samsung 980 1 To
             </Link>
           </li>
           <li>
